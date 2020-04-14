@@ -1,0 +1,54 @@
+{
+  "name": "datadog-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/styles": "^4.9.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "chart.js": "^2.9.3",
+    "chartjs-plugin-streaming": "^1.8.0",
+    "classnames": "^2.2.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "express": "^4.17.1",
+    "fibers": "^4.0.2",
+    "keymirror": "^0.1.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "notistack": "^0.9.9",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "sass": "^1.26.3",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5"
+  }
+}

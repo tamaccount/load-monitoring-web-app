@@ -1,0 +1,19 @@
+import keymirror from 'keymirror';
+
+export const REFRESH_DURATION_SECONDS = 10;
+export const SECONDS_IN_MINUTES = 60;
+export const AVERAGE_PERIOD_DEFINED_IN_MINUTES = 10;
+export const DATA_POINTS_IN_EACH_MINUTE = SECONDS_IN_MINUTES / REFRESH_DURATION_SECONDS;
+
+export const HIGH_LOAD_CPU_DEFINITION = 1;
+
+export const HIGH_LOAD_CPU_TIME_IN_MINUTES = 2;
+export const RECOVERY_HIGH_LOAD_CPU_TIME_IN_MINUTES = 2;
+
+export const DATA_POINTS_IN_AVERAGE_PERIOD =
+  AVERAGE_PERIOD_DEFINED_IN_MINUTES * DATA_POINTS_IN_EACH_MINUTE;
+
+export const loadTypes = keymirror({
+  RECOVERED: null,
+  HIGH: null
+});
