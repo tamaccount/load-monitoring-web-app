@@ -1,7 +1,7 @@
-##Load Monitoring Web Application
+## Load Monitoring Web Application
 ![](screenshot.png)
 
-####[Project Instructions/Guidelines](Assignment.md)
+#### [Project Instructions/Guidelines](Assignment.md)
 
 
 ## Instructions for Running App Locally 
